@@ -8,7 +8,7 @@ import "../../Pages/list/list.scss";
 
 const Earnings = () => {
   const [data, setData] = useState([]);
-  const usersRef = ref(db, "All Ride Requests");
+  const usersRef = ref(db, "Earnings");
   const [fareSum, setFareSum] = useState({});
 
   useEffect(() => {

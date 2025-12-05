@@ -13,7 +13,7 @@ root.render(
       </AuthContextProvider>
       
     </DarkModeContextProvider>,
-    document.getElementById("root")
+   // document.getElementById("root")
 );
 
 
